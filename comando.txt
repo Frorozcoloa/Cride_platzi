@@ -1,0 +1,10 @@
+export COMPOSE_FILE=local.yml
+Processes : docker-compose -f local.yml ps
+Stop app: docker-compose -f local.yml down
+Enviroment var: export COMPOSE_FILE = local.yml
+Build: docker-compose -f local.yml build
+Run app: docker-compose -f local.yml up
+Run service command: docker-compose run --rm SERVICE COMMAND
+Stop service: docker rm -f SERVICE
+Remove volume: docker volume rm -f <ID>
+Run one service: docker-compose run --rm --service-ports SERVICE
