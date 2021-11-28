@@ -8,3 +8,5 @@ Run service command: docker-compose run --rm SERVICE COMMAND
 Stop service: docker rm -f SERVICE
 Remove volume: docker volume rm -f <ID>
 Run one service: docker-compose run --rm --service-ports SERVICE
+
+docker-compose run --rm django python manage.py loaddata cride/circles/fixtures/circles.json

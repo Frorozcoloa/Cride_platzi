@@ -6,6 +6,7 @@ ipdb==0.11
 # Tools
 django-extensions==3.1.2
 jedi==0.17.2
+werkzeug==2.0.2
 
 # Testing
 mypy==0.650
